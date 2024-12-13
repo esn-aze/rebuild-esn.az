@@ -1,7 +1,3 @@
-Here’s a cleaner and simpler version of `collab.md`:
-
----
-
 # **Collaboration Guide for `rebuild-esn.az`**
 
 Welcome to the `rebuild-esn.az` project! This guide will help you contribute to the project using GitHub. Please follow these steps carefully to ensure smooth teamwork.
