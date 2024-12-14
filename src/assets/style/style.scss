@@ -1,0 +1,68 @@
+//RESET CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s all;
+}
+
+.nav-bar {
+  .burger-menu {
+    display: none;
+    @media (max-width: 990px) {
+      display: block;
+      font-size: 30px;
+    }
+  }
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  padding: 10px 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (max-width: 1230px) {
+    padding: 10px 100px;
+  }
+  @media (max-width: 1100px) {
+    padding: 10px 60px;
+  }
+  img {
+    width: 150px;
+  }
+  ul {
+    width: 80%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+
+    @media (max-width: 1100px) {
+      gap: 35px;
+    }
+    @media (max-width: 990px) {
+      display: none;
+    }
+    li {
+      font-size: 19px;
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+      @media (max-width: 1175px) {
+        font-size: 17px;
+      }
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        i {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
