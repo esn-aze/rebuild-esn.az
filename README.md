@@ -4,10 +4,10 @@
    - Open your terminal and run:
      ```bash
      git init
-git remote add origin https://github.com/username/repository-name.git
-git checkout -b navbar
-git add .
-git commit -m "Initial setup for navbar"
-git push -u origin navbar
+     git remote add origin https://github.com/username/repository-name.git
+     git checkout -b 'your branch name'
+     git add .
+     git commit -m "Initial setup for 'your branch name' "
+     git push -u origin 'your branch name'
 
     
