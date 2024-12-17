@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Dropdown, DropdownList, DropdownTitle } from "./Dropdown";
+import { ChevronDown } from "lucide-react";
 
 export const Header = () => {
   return (
@@ -12,7 +13,12 @@ export const Header = () => {
       </div>
       <nav className="flex items-center">
         <Dropdown>
-          <DropdownTitle>About Us</DropdownTitle>
+          <DropdownTitle>
+            <div className="flex items-center">
+              <span>About Us&nbsp;</span>
+              <ChevronDown size={20} />
+            </div>
+          </DropdownTitle>
           <DropdownList
             items={[
               { content: "Missions and values", link: "#" },
@@ -24,7 +30,12 @@ export const Header = () => {
           />
         </Dropdown>
         <Dropdown>
-          <DropdownTitle>The Network</DropdownTitle>
+          <DropdownTitle>
+            <div className="flex items-center">
+              <span>The Network&nbsp;</span>
+              <ChevronDown size={20} />
+            </div>
+          </DropdownTitle>
           <DropdownList
             items={[
               { content: "Missions", link: "#" },
@@ -34,7 +45,12 @@ export const Header = () => {
           />
         </Dropdown>
         <Dropdown>
-          <DropdownTitle>Out Actions</DropdownTitle>
+          <DropdownTitle>
+            <div className="flex items-center">
+              <span>Our Actions&nbsp;</span>
+              <ChevronDown size={20} />
+            </div>
+          </DropdownTitle>
           <DropdownList
             items={[
               { content: "Tools and actions", link: "#" },
@@ -43,7 +59,12 @@ export const Header = () => {
           />
         </Dropdown>
         <Dropdown>
-          <DropdownTitle>Out Partners</DropdownTitle>
+          <DropdownTitle>
+            <div className="flex items-center">
+              <span>Our Partners&nbsp;</span>
+              <ChevronDown size={20} />
+            </div>
+          </DropdownTitle>
           <DropdownList
             items={[
               { content: "Our partners", link: "#" },
