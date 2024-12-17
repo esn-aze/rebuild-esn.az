@@ -11,17 +11,17 @@ const Navbar = () => {
       <ul>
         <li>
           <div>
-            <span>About us</span> <i class="fa-solid fa-chevron-down"></i>{" "}
+            <span>About us</span> <i className="fa-solid fa-chevron-down"></i>{" "}
           </div>
         </li>
         <li>
           <div>
-            <span> The Network</span> <i class="fa-solid fa-chevron-down"></i>
+            <span> The Network</span> <i className="fa-solid fa-chevron-down"></i>
           </div>
         </li>
         <li>
           <div>
-            <span> Our Actions</span> <i class="fa-solid fa-chevron-down"></i>
+            <span> Our Actions</span> <i className="fa-solid fa-chevron-down"></i>
           </div>
         </li>
         <li>
@@ -32,7 +32,7 @@ const Navbar = () => {
         </li>
         <li>
           <div>
-            <span>Contact</span> <i class="fa-solid fa-chevron-down"></i>
+            <span>Contact</span> <i classn="fa-solid fa-chevron-down"></i>
           </div>
         </li>
       </ul>
